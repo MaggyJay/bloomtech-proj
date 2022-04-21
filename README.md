@@ -3,17 +3,17 @@ Hello! So this is a revamp of a project I did back in November as volunteer work
 
 A couple of things you’ll probably notice—
 
-I have my results parameter to pull in up to 5000 records. I noticed when I didn’t do large numbers it limited the search results (makes sense as this is a random gen). 
+* I have my results parameter to pull in up to 5000 records. I noticed when I didn’t do large numbers it limited the search results (makes sense as this is a random gen). 
 
-Since I can pull in quite a few requests at times—the API errors out in order to free up bandwidth. Didn’t have a chance to create some sort of alert letting users know that this is why results are not being displayed. 
+* Since I can pull in quite a few requests at times—the API errors out in order to free up bandwidth. Didn’t have a chance to create some sort of alert letting users know that this is why results are not being displayed. 
 
-If no results are found the spinning loader will stop showing. I’ve found luck using really generic names like ‘Tim’, 
+* If no results are found the spinning loader will stop showing. I’ve found luck using really generic names like ‘Tim’, 
 
 <img src="/assets/apiscreen.png">
 
-Buy Cookies window is draggable
+* Buy Cookies window is draggable
 
-You will notice a bug (literally) in the tic-tac-toe game. This project was an exercise I created for the Girl Scouts so they could review the code, find the bug, and correct it. 
+* You will notice a bug (literally) in the tic-tac-toe game. This project was an exercise I created for the Girl Scouts so they could review the code, find the bug, and correct it. 
 
 
 
