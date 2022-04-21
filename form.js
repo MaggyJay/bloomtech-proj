@@ -22,6 +22,17 @@ function hideLoading() {
     loader.classList.remove("display");
 }
 
+ticTacIcon.addEventListener("click", function () {
+
+    console.log("this worked also!");
+    bloomTechForm.style.display= "none";
+    // resultsDiv.style.display= "none";
+    // game.style.display = "block";
+    game.style.visibility= "visible";
+
+})
+
+
 bloomicon.addEventListener("click", function () {
     
     bloomTechForm.style.display= "block"
@@ -30,19 +41,13 @@ bloomicon.addEventListener("click", function () {
     game.style.visibility= "hidden";
 });
 
-ticTacIcon.addEventListener("click", function () {
 
-    console.log("this worked also!");
-    bloomTechForm.style.display= "none";
-    resultsDiv.style.display= "none";
-    // game.style.display = "block";
-    game.style.visibility= "visible";
-
-})
 
 submitForm.addEventListener("click", function () {
     bloomTechForm.style.display= "none";
-    game.style.display= "none";
+    resultsDiv.style.display= "block";
+    // game.style.visibility= "hidden";
+    // game.style.display= "none";
     // resetBtn.style.display= "block";
 
     loader.classList.add("display");

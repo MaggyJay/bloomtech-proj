@@ -115,8 +115,12 @@ body {
 .game-container {
     position: fixed;
     margin: 50px;
+   
 }
 
+/* #main-windows-girlscout{
+    visibility: visible;
+} */
 /* .game-window {
     margin-right: 800px auto;
 } */
