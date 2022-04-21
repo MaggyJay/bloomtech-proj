@@ -7,6 +7,7 @@ async function randomUsersAPI() {
     const age = document.getElementById("user-age").value;
     let gender= document.getElementById("genders").value;
     const listUsers = [];
+    const loader = document.querySelector("#loading");
 
     // console.log(`My selected gender is ${gender}`);
 
@@ -125,6 +126,8 @@ user.forEach(function (lists) {
     //     </div> 
     // </div>`
     // }
+
+    
 });
 
 

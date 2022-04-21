@@ -47,9 +47,9 @@ submitForm.addEventListener("click", function () {
 
     loader.classList.add("display");
     // //stop loading results after time
-    // setTimeout(() => {
-    //     loader.classList.remove("display");
-    // }, 10000);
+    setTimeout(() => {
+        loader.classList.remove("display");
+    }, 10000);
 
 
 })
