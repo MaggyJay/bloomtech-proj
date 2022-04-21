@@ -14,6 +14,6 @@ _______________________________________________
 
 Currently working towards making the website more mobile friendly and responsive. 
 
-Check out the project here! https://maggyjay.github.io/tictactoegame/
+Check out the project here! https://maggyjay.github.io/bloomtech-proj/
 
 
