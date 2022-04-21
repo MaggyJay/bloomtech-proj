@@ -35,7 +35,7 @@ async function randomUsersAPI() {
     // console.log(response);
 
     let data = await response.json();
-    // console.log (data);
+    console.log (data);
     let user= data.results;
     // console.log(`what is user ${user}`);
     // console.log(`what is maxage ${age}`);

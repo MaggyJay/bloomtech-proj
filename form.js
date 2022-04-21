@@ -42,7 +42,7 @@ ticTacIcon.addEventListener("click", function () {
 
 submitForm.addEventListener("click", function () {
     bloomTechForm.style.display= "none";
-    game.style.visibility= "hidden";
+    game.style.display= "none";
     // resetBtn.style.display= "block";
 
     loader.classList.add("display");
